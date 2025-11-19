@@ -1,0 +1,83 @@
+/* General page background */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #455845; /* muted green */
+  color: white;
+  text-align: center;
+}
+
+/* Navigation bar */
+.NavBar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: transparent;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+ul li a.active {
+  background-color: white;
+  color: #2e3b2e;
+  font-weight: 500;
+}
+
+/* Main centered section */
+.main {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 700px;
+}
+
+h1 {
+  font-size: 64px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #e0e0e0;
+  margin-bottom: 40px;
+}
+
+/* Button styling */
+button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 40px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
