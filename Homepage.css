@@ -1,13 +1,11 @@
-/* General page background */
 body {
   margin: 0;
-  font-family: 'Georgia', serif;
-  background-color: #455845; /* muted green */
+  font-family: 'Inter', sans-serif;
+  background-color: #455845; /* green */
   color: white;
   text-align: center;
 }
 
-/* Navigation bar */
 .NavBar {
   display: flex;
   justify-content: flex-end;
@@ -16,7 +14,7 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -35,15 +33,16 @@ ul li a {
 
 ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
 }
 
 ul li a.active {
   background-color: white;
   color: #2e3b2e;
   font-weight: 500;
+  border-radius: 8px;
 }
 
-/* Main centered section */
 .main {
   height: 85vh;
   display: flex;
@@ -56,18 +55,17 @@ ul li a.active {
 }
 
 h1 {
+  font-family: 'Playfair Display', serif;
   font-size: 64px;
   letter-spacing: 3px;
   margin-bottom: 10px;
 }
 
 p {
-  font-size: 16px;
-  color: #e0e0e0;
+  font-size: 18px;
   margin-bottom: 40px;
 }
 
-/* Button styling */
 button {
   background-color: transparent;
   color: white;
@@ -76,6 +74,7 @@ button {
   font-size: 18px;
   cursor: pointer;
   transition: 0.3s;
+  border-radius: 8px;
 }
 
 button:hover {

@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+  color: #242826;
+  text-align: center;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: transparent;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  color: #2f4636;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  background-color: #eef5f0;
+  border-radius: 8px;
+}
+
+ul li a.active {
+  background-color: #3e5a49;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.wrap {
+  max-width: 1180px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.member {
+  text-align: center;
+}
+
+.photo {
+  width: 100%;
+  aspect-ratio: 1/1;
+  margin: 0 auto 15px;
+  border: 1px solid #e8ece9;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f3f5f4;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  margin: 8px 0 4px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.bio {
+  margin: 0.15rem 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.contrib {
+  margin: 0.15rem 0;
+  color: #4b4b4b;
+  font-size: 14px;
+  text-align: left;
+}
+
+footer {
+  margin: 24px 0 64px;
+}
+
+.contact {
+  font-size: 18px;
+  color: #111;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid #e8ece9;
+  transition: background 0.2s ease;
+}
+
+.contact:hover {
+  background: #f7faf8;
+}
